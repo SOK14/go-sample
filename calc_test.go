@@ -12,4 +12,3 @@ func TestPlusSimply(t *testing.T) {
 
 	assert.Equal(t, expect, result)
 }
-
