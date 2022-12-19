@@ -9,6 +9,16 @@ import (
 
 type MyTestSuiteStruct struct {
 	suite.Suite
+
+	ExecutedTestMethodNames []string
+
+	CallSetupSuiteCount    int
+	CallSetupTestCount     int
+	CallBeforeTestCounts   map[string]int
+	runTestMethodNames     []string
+	CallAfterTestCounts    map[string]int
+	CallTearDownTestCount  int
+	CallTearDOwnSuiteCount int
 }
 
 func (suite *MyTestSuiteStruct) BeforeTest(suiteName string, testName string) {
