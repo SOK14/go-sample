@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"../entity"
-	"../repository"
+	"gotest/entity"
+	"gotest/repository"
 )
 
 type fooUseCase struct {

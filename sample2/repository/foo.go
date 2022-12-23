@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"entity"
+	"gotest/entity"
 )
 
 type FooRepository interface {
