@@ -8,7 +8,8 @@ import (
 	entity "gotest/entity"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
+	gomock 	"github.com/golang/mock/gomock"
+
 )
 
 // MockFooRepository is a mock of FooRepository interface.
