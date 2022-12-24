@@ -7,5 +7,5 @@ import (
 type FooRepository interface {
 	FindByID(id int64) (*entity.Foo, error)
 	Insert(foo *entity.Foo) error
-	Update(foo *entity.Foo) erro
+	Update(foo *entity.Foo) error
 }
